@@ -38,6 +38,10 @@ class MY_Model extends CI_Model {
         return $this->db->get($this->table)->result();
     }
 
+    function getAll_array(){
+        return $this->db->get($this->table)->result_array();
+    }
+
     function getIdTeratas(){
         return $this->db->order_by($this->id,"desc")->get($this->table)->row();
     }

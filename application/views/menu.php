@@ -11,12 +11,12 @@
               </a>
               <ul class="treeview-menu">
               <?php if($this->session->userdata('level_akses') == 1){ ?>
-                <?php echo '<li><a href="barang"><i class="fa fa-plus-circle"></i>Barang</a></li>' ?>
+                <?php echo '<li><a href="kuesioner"><i class="fa fa-plus-circle"></i>Kuesioner</a></li>' ?>
+                <?php echo '<li><a href="hasilkuesioner"><i class="fa fa-plus-circle"></i>Hasil Kuesioner</a></li>' ?>
               <?php }elseif($this->session->userdata('level_akses') == 4) {  ?>
                 <?php echo '<li><a href="nilai"><i class="fa fa-plus-circle"></i>Nilai</a></li>' ?>
               <?php } else { ?>
-                <?php echo '<li><a href="barang"><i class="fa fa-plus-circle"></i>Barang</a></li>' ?>
-                <?php echo '<li><a href="nilai"><i class="fa fa-plus-circle"></i>Nilai</a></li>' ?>
+                <?php echo '<li><a href="mahasiswakuesioner"><i class="fa fa-plus-circle"></i>Kuesioner</a></li>' ?>
               <?php } ?>
               </ul>
             </li>

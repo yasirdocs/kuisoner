@@ -3,7 +3,7 @@
 
 <section class="content">
 	<h2>Mahasiswa</h2>
-	<br><h4 style="color:red">Selamat datang <b><?= $this->session->username ?>.</b></h4>
+	<br><h4 style="color:red">Selamat datang <b>Mahasiswa.</b></h4>
 
 	<a class="btn btn-primary" href="barang"> Barang</a>
 </section>

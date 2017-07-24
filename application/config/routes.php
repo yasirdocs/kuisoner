@@ -7,6 +7,19 @@ $route['dashboard']                 = "backEnd/BackEndController/dashboard";
 $route['dosen']                     = "backEnd/DosenController";
 $route['mahasiswa']                 = "backEnd/MahasiswaController";
 
+$route['kuesioner']                	   = "backEnd/RefKuesionerController";
+$route['kuesionerAdd']                 = "backEnd/RefKuesionerController/add";
+$route['kuesionerUpdate/(:any)']       = "backEnd/RefKuesionerController/update/$1";
+$route['kuesionerDelete/(:any)']       = "backEnd/RefKuesionerController/delete/$1";
+
+$route['hasilkuesioner']                	= "backEnd/RefHasilKuesionerController";
+$route['hasilkuesionerAdd']                 = "backEnd/RefHasilKuesionerController/add";
+$route['hasilkuesionerUpdate/(:any)']       = "backEnd/RefHasilKuesionerController/update/$1";
+$route['hasilkuesionerDelete/(:any)']       = "backEnd/RefHasilKuesionerController/delete/$1";
+
+$route['mahasiswakuesioner']                	= "backEnd/RefMahasiswaKuesionerController";
+$route['mahasiswakuesionerView/(:any)']       	= "backEnd/RefMahasiswaKuesionerController/View/$1";
+
 $route['barang']                    = "backEnd/RefBarangController";
 $route['barangAdd']                 = "backEnd/RefBarangController/add";
 $route['barangtest']                = "backEnd/RefBarangController/test";

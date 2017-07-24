@@ -1,6 +1,6 @@
 <?php
 
-define('nameSite','Q-eCommerce');
+define('nameSite','Kuesioner');
 
 define('assetsGLobal',base_url().'assets/global/');
 define('assetsPlugin',base_url().'assets/plugins/');
